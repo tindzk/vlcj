@@ -28,7 +28,7 @@ import java.nio.ByteBuffer;
  * Specification for a component that wishes to be called back to process video frames.
  * <p>
  * The render call-back provides access to the native memory buffer, if instead the full RGB integer
- * data is required for the full video frame then consider using {@link RenderCallbackAdapter}.
+ * data is required for the full video frame then consider using {@link RenderCallback}.
  * <p>
  * The render call-back is invoked by a <em>native</em> thread.
  */
